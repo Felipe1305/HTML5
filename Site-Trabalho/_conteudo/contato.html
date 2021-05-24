@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array até o chão</title>
+  <link rel="stylesheet" href="../_css/estilo.css">
+  <link rel="stylesheet" href="../_css/contato.css">
+</head>
+<body>
+  <div id=interface>
+    <header id="cabecalho">
+      <hgroup>
+        <h1>Array até o chão</h1>
+
+      </hgroup>
+      <img id="icone" src="../imagens/icon-troca-contato.png" alt="Logo">
+    </header>
+    <script src="../javascript/funcoes.js"></script>
+    <nav id="menu">
+      <h1>Menu Principal</h1>
+      <ul type="disc">
+        <li onmouseover="mudaFoto('../imagens/logo.jpg')" onmouseout="mudaFoto('../imagens/icon-troca-contato.png')"><a
+            href="./index.html"> Inicio</a></li>
+        <li onmouseover="mudaFoto('../imagens/icon-troca-info.png')"
+          onmouseout="mudaFoto('../imagens/icon-troca-contato.png')"><a href="./info.html"> Sobre nós</a></li>
+        <li><a href="./contato.html" id="contato"> Contato</a></li>
+      </ul>
+    </nav>
+    <div class="container2">
+      <h1>Mande uma mensagem e retornaremos o contato</h1>
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Primeiro Nome</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Último Sobronome</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Seu último sobrenome...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">E-mail</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lemail" name="lemailcont" placeholder="contato@contato.com">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">País</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="brasil">Brasil</option>
+              <option value="argentina">Argentina</option>
+              <option value="portugal">Portugal</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Mensagem</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Escreva aqui sua mensagem..."
+              style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+    <footer id="rodape">
+      <p> Copyright 2021 - by Felipe Almeida <br />
+        Turma dos Feras</p>
+    </footer>
+  </div>
+</body>
+</html>

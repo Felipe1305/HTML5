@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+.container > div {
+    font-size: 13pt;
+   
+}
+
+nav#menu a#info {
+    color: #ffffff;;
+}
+

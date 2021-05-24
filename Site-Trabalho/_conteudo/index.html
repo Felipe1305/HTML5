@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array até o chão</title>
+    <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../_css/fotos-index.css">
+</head>
+<body>
+    <div id=interface>
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Array até o chão</h1>
+            </hgroup>
+            <script src="../javascript/funcoes.js"></script>
+            <img id="icone" src="../imagens/logo.jpg" alt="Logo">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li><a href="index.html" id="home"> Inicio</a></li>
+                    <li onmouseover="mudaFoto('../imagens/icon-troca-info.png')"
+                        onmouseout="mudaFoto('../imagens/logo.jpg')"><a href="info.html" id="info"> Sobre nós</a></li>
+                    <li onmouseover="mudaFoto('../imagens/icon-troca-contato.png')"
+                        onmouseout="mudaFoto('../imagens/logo.jpg')"><a href="contato.html" id="contato"> Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo">
+            <article id="pagina-principal">
+                <header id="cabecalho-pagina">
+                    <h1>Equipe com os melhores profissionais que <em> #tá_tendo! </em></h1>
+                </header>
+                <p> Somos um grupo formado de pré-desenvolvedores full-stack, prontos para resolver qualquer problema
+                    apresentado pelos professores. Contamos com excelentes membros que possuem habilidades com as mais
+                    altas linguagens tecnóligcas do mercado. Nosso compromisso com os clientes é "Entregamos seu produto
+                    em até 72 horas(um final de semana)".</p>
+                <ul id="album-fotos">
+                    <li id="foto01"><span>#Alea jacta est</span></li>
+                    <li id="foto02"><span>#Cogito, ergo sum</span></li>
+                    <li id="foto03"><span>#Carpe diem</span></li>
+                </ul>
+                <div class="container-text">
+                    <div><span>Jéssica S., mora em Teresópolis-RJ. Gestora em Tecnologia de Informação e muito empática.
+                        </span></div>
+                    <div><span>Thamyris Gama Thurler, de Nova-Friburgo. Formada em Engenharia Civil.</span></div>
+                    <div><span>Willian Filgueira, mora em Teresópolis-RJ. Estudante de programação e empreendedor nas
+                            horas vagas. </span></div>
+                </div>
+                <ul id="album-fotos">
+                    <li id="foto04"><span>#Mens sana in corpore sano</span></li>
+                    <li id="foto05"><span>#Audaces fortuna juvat</span></li>
+                    <li id="foto06"><span>#Nosce te ipsum</span></li>
+                </ul>
+                <div class="container-text">
+                    <div><span>José Milton Júnior, de Teresópolis-RJ. Tecnólogo em Análise e Desenvolvimento de
+                            Sistemas.</span></div>
+                    <div><span>Nicolas Theodoro Lopes, de Teresópolis-RJ. Tecnólogo em Análise e Desenvolvimento de
+                            Sistemas. </span></div>
+                    <div><span>Felipe de Almeida, de Teresópolis-RJ. Viciado em programação e violinista nas horas
+                            vagas. </span></div>
+                </div>
+            </article>
+        </section>
+        <footer id="rodape">
+            <p> Copyright 2021 - by Felipe Almeida <br />
+                Turma dos Feras</p>
+        </footer>
+    </div>
+    <audio controls autoplay>
+        <source src="../multimidia/musica-fundo.mp3" type="audio/mp3" hidden="true">
+    </audio>
+</body>
+</html>
